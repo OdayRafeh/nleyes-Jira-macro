@@ -1,0 +1,17 @@
+modules:
+  macro:
+    - key: nleyes-jira-macro-hello-world
+      function: main
+      title: nleyes-Jira-macro
+      description: Inserts Hello world!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/2d0f3791-3336-4161-aae3-62f8394487fa
+
+permissions:
+  scopes:
+    - read:me
+    - read:jira-user
+    - read:jira-work
